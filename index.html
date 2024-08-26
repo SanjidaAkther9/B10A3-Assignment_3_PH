@@ -17,7 +17,7 @@
             font-family: "Manrope", sans-serif;
 
             * {
-                /* border: 2px solid red;  */
+                border: 2px solid red;
                 margin: 0;
                 padding: 0;
             }
@@ -186,7 +186,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="mx-auto"><img src="assets/Rectangle.png" class="rounded-lg shadow-2xl" /></div>
+                        <div class="my-auto w-full"><img class="mb-0 rounded-lg shadow-2xl"
+                                src="assets/Rectangle.png" /></div>
                     </div>
                 </div>
             </div>
@@ -245,12 +246,12 @@
 
         <!-- Our Latest Portfolio -->
         <section>
-            <div class="w-11/12 md:w-10/12 mx-auto my-15 my-20">
+            <div class="w-11/12 md:w-10/12 mx-auto my-20">
                 <div class="">
                     <div class="text-center">
                         <div>
                             <button
-                                class=" md:ml-20 rounded-full text-sm md:text-lg mb-6 bg-col-white px-6 py-3 bg-base-100 shadow-xl font-extrabold"><i
+                                class=" md:ml-20 rounded-full text-sm md:text-lg mb-6 bg-col-white md:px-6 px-3 py-3 bg-base-100 shadow-xl font-extrabold"><i
                                     class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
                         </div>
                         <div class="text-center md:ml-20 space-y-5 mb-10">
@@ -263,12 +264,14 @@
                         <div>
                             <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mb-8">
                                 <!-- 1st  Card  -->
-                                <div class="border border-s rounded-lg col-span-9">
-                                    <div class="flex flex-col md:flex-row gap-6 py-6 px-5">
-                                        <img src="assets/img1.png" alt="">
+                                <div class="border border-s rounded-lg md:col-span-9">
+                                    <div class="flex flex-col md:flex-row gap-6 ">
+                                        <img class="py-4 px-5" src="assets/img1.png" alt="">
                                         <div class="space-y-2 my-auto">
                                             <h2 class=" text-2xl font-extrabold text-left">Commercial</h2>
-                                            <p class="text-sm md:text-lg text-text-secondary text-left">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                                            <p class="text-sm md:text-lg text-text-secondary text-left">The barn house
+                                                captivates with its blend of rustic charm and modern. The barn house
+                                                captivates with its blend of rustic charm and modern .</p>
                                             <div class="text-left ">
                                                 <button class=" p-2 rounded-full space-x-2"><span class="text-xl ">View
                                                         Details</span><i
@@ -280,50 +283,64 @@
                                 </div>
 
                                 <!-- 2nd Card  -->
-                                <div class="border border-s rounded-lg md:col-span-3 py-auto px-auto ">
-                                    <img class="py-4 px-4 w-[100%]" src="assets/img2.png" alt="">
+                                <!-- <div class="border border-s rounded-lg md:col-span-3 py-auto px-auto ">
+                                    <img class=" h-full py-4 px-4 w-[100%]" src="assets/img2.png" alt="">
+                                </div> -->
+                                <div class="md:col-span-3 ">
+
+                                    <img class="border border-s rounded-lg h-full w-[100%] py-4 px-5"
+                                        src="assets/img2.png" alt="">
                                 </div>
                             </div>
+                            <!-- <div class="md:col-span-3">
+                                    <img class=" border border-s rounded-lg md:h-full py-4 px-4 w-[100%]" src="assets/img5.png" alt="">
+                                </div> -->
 
-                            <!-- 2nd row  -->
+                        </div>
 
-                            <div class="grid grid-cols-1 md:grid-cols-5 auto-rows-fr gap-10">
+                        <!-- 2nd row  -->
 
-                                <div class="border border-s rounded-lg py-auto px-auto ">
-                                    <img class="py-4 px-4 w-[100%]" src="assets/img3.png" alt="">
-                                </div>
+                        <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
 
-                                <!-- 4th  Card  -->
-                                <div class="border border-s rounded-lg md:col-span-3 ">
-                                    <div class="flex flex-col md:flex-row gap-6 ">
-                                        <img class="py-8 px-5" src="assets/img4.png" alt="">
-                                        <div class="space-y-2 my-auto">
-                                            <h2 class=" text-2xl font-extrabold text-left">Commercial</h2>
-                                            <p class="text-sm md:text-lg text-text-secondary text-left">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                                            <div class="text-left ">
-                                                <button class="p-2 rounded-full space-x-2"><span class="text-xl ">View
-                                                        Details</span><i
-                                                        class="bg-col-primary fa-solid fa-arrow-right -rotate-45 p-2 rounded-full "></i>
-                                                </button>
-                                            </div>
+                            <!-- <div class="border border-s rounded-lg py-auto px-auto h:full "> -->
+                            <img class=" border border-s rounded-lg md:h-full py-4 px-4 w-[100%]" src="assets/img5.png"
+                                alt="">
+                            <!-- </div> -->
+
+                            <!-- 4th  Card  -->
+                            <div class="border border-s rounded-lg md:col-span-3 ">
+                                <div class="flex flex-col md:flex-row gap-6 ">
+                                    <img class="py-4 px-5" src="assets/img4.png" alt="">
+                                    <div class="space-y-2 my-auto">
+                                        <h2 class=" text-2xl font-extrabold text-left">Commercial</h2>
+                                        <p class="text-sm md:text-lg text-text-secondary text-left">The barn house
+                                            captivates with its blend of rustic charm and modern. The barn house
+                                            captivates with its blend of rustic charm and modern .</p>
+                                        <div class="text-left ">
+                                            <button class="p-2 rounded-full space-x-2"><span class="text-xl ">View
+                                                    Details</span><i
+                                                    class="bg-col-primary fa-solid fa-arrow-right -rotate-45 p-2 rounded-full "></i>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
-
-                                <!-- 5th Card  -->
-                                <div class="border border-s rounded-lg py-auto px-auto">
-                                    <img class="py-4 px-4 w-[100%]" src="assets/img5.png" alt="">
-                                </div>
                             </div>
+
+                            <!-- 5th Card  -->
+                            <!-- <div class="border border-s rounded-lg"> -->
+                            <img class=" border border-s rounded-lg md:h-full py-4 px-4 w-[100%]" src="assets/img5.png"
+                                alt="">
+                            <!-- </div> -->
                         </div>
+                    </div>
 
-                        <div>
-
-                        </div>
-
+                    <div>
 
                     </div>
+
+
                 </div>
+            </div>
             </div>
             </div>
         </section>
@@ -374,7 +391,7 @@
         <section>
             <!-- Footer Section  -->
 
-            <div class="w-11/12 md:w-6/12 mx-auto text-white py-20">
+            <div class="w-10/12 md:w-6/12 mx-auto text-white py-20">
                 <div class="grid grid-cols-1 bg-none mx-auto">
 
                     <div class="text-center space-y-5 mb-10">
